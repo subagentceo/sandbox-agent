@@ -1,0 +1,11 @@
+{
+  "name": "sandbox-agent",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-03-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "ai": { "binding": "AI" },
+  "kv_namespaces": [
+    { "binding": "DATA", "id": "cd31beacf6704b09b8962ba4cc963745" }
+  ]
+}
